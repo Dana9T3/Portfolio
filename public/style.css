@@ -137,6 +137,13 @@ button:hover:after {
 	box-shadow: none;
 }
 
+/* #me {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	object-fit: cover;
+} */
+
 /*──────────────────
        home
 ──────────────────*/
@@ -151,9 +158,9 @@ button:hover:after {
 	justify-content: space-evenly;
 }
 
-/* #name {
-	color: rgb(53, 238, 192);
-} */
+#name {
+	padding: 50px;
+}
 
 #home .filter {
 	background: url("https://i.imgur.com/kTmpHKo.jpg") no-repeat;
@@ -182,6 +189,11 @@ button:hover:after {
 	text-align: center;
 	color: #dddcc2;
 }
+
+/* .me {
+	max-width: 100px;
+	max-height: 100px;
+} */
 
 h3 {
 	padding-bottom: 15px;
@@ -232,7 +244,7 @@ strong {
 ──────────────────*/
 
 #projects {
-	margin-top: 100px;
+	margin-top: 50px;
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -253,9 +265,9 @@ strong {
 
 p {
 	font-family: var(--main-font-family);
-	font-size: 1rem;
+	font-size: 1.2rem;
 	padding: 10px;
-	color: #ed8d8d;
+	color: #dddcc2;
 }
 
 .work {
@@ -302,6 +314,36 @@ p {
 
 .card:hover {
 	box-shadow: 0 0 1.5rem gray;
+}
+
+/*skills*/
+
+#skills {
+	margin-top: 50px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: var(--main-fonts-color);
+}
+
+#skills p {
+	padding: 20px;
+}
+
+#skills img {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	padding: 20px;
+}
+
+#skillsImage {
+	height: 50px;
+	width: 50px;
 }
 
 /*──────────────────
